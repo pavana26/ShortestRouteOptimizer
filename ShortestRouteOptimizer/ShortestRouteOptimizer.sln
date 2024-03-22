@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizer", "ShortestRouteOptimizer.csproj", "{154ED094-ECA3-460D-92E7-DFA63803D3C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestRouteOptimizerUnitTest", "..\ShortestRouteOptimizerUnitTest\ShortestRouteOptimizerUnitTest.csproj", "{638190A3-C328-4344-B1A6-8ED15DF652E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{154ED094-ECA3-460D-92E7-DFA63803D3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154ED094-ECA3-460D-92E7-DFA63803D3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154ED094-ECA3-460D-92E7-DFA63803D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154ED094-ECA3-460D-92E7-DFA63803D3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638190A3-C328-4344-B1A6-8ED15DF652E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638190A3-C328-4344-B1A6-8ED15DF652E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638190A3-C328-4344-B1A6-8ED15DF652E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638190A3-C328-4344-B1A6-8ED15DF652E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B90B9AA9-8C49-49C2-9D95-A3713A9C3515}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+
+@model ShortestRouteOptimizer.Models.DTO.ShortestPathData
+@{
+    var res = ViewBag.Result;
+    var first = (res.NodeNames as IEnumerable<string>).First();
+    var last = (res.NodeNames as IEnumerable<string>).Last();
+}
+<div class="text-center">
+    <img src="~/Content/RouteGraph.png" />
+    <h1>fromNodeName=@(first)@(',') toNodeName=@(last) :->  @(string.Join(",", res.NodeNames))</h1>
+    <h1>Total Distance : @res.Distance</h1>
+</div>
